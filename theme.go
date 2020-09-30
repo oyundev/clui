@@ -150,11 +150,11 @@ func ThemeReset() {
 	defTheme.colors[ColorDisabledText] = ColorWhite
 	defTheme.colors[ColorDisabledBack] = ColorBlackBold
 	defTheme.colors[ColorText] = ColorBlack
-	defTheme.colors[ColorBack] = ColorWhite
-	defTheme.colors[ColorViewBack] = ColorWhite
-	defTheme.colors[ColorViewText] = ColorWhiteBold
+	defTheme.colors[ColorBack] = ColorBlue
+	defTheme.colors[ColorViewBack] = ColorCyan
+	defTheme.colors[ColorViewText] = ColorWhite
 
-	defTheme.colors[ColorControlText] = ColorBlack 
+	defTheme.colors[ColorControlText] = ColorBlack
 	defTheme.colors[ColorControlBack] = ColorCyanBold
 	defTheme.colors[ColorControlActiveText] = ColorWhite
 	defTheme.colors[ColorControlActiveBack] = ColorMagenta
@@ -170,23 +170,23 @@ func ThemeReset() {
 	defTheme.colors[ColorButtonDisabledText] = ColorBlackBold
 	defTheme.colors[ColorButtonDisabledBack] = ColorWhite
 
-	defTheme.colors[ColorEditText] = ColorYellow
+	defTheme.colors[ColorEditText] = ColorWhite
 	defTheme.colors[ColorEditBack] = ColorBlue
-	defTheme.colors[ColorEditActiveText] = ColorYellowBold
+	defTheme.colors[ColorEditActiveText] = ColorYellow
 	defTheme.colors[ColorEditActiveBack] = ColorBlueBold
-	defTheme.colors[ColorSelectionText] = ColorYellow
+	defTheme.colors[ColorSelectionText] = ColorWhite
 	defTheme.colors[ColorSelectionBack] = ColorCyanBold
 
-	defTheme.colors[ColorScrollBack] = ColorBlack
+	defTheme.colors[ColorScrollBack] = ColorCyanBold
 	defTheme.colors[ColorScrollText] = ColorWhite
 	defTheme.colors[ColorThumbBack] = ColorBlack
 	defTheme.colors[ColorThumbText] = ColorWhite
 
-	defTheme.colors[ColorProgressText] = ColorBlue
-	defTheme.colors[ColorProgressBack] = ColorBlack
+	defTheme.colors[ColorProgressText] = ColorWhite
+	defTheme.colors[ColorProgressBack] = ColorBlueBold
 	defTheme.colors[ColorProgressActiveText] = ColorBlack
 	defTheme.colors[ColorProgressActiveBack] = ColorBlue
-	defTheme.colors[ColorProgressTitleText] = ColorWhite
+	defTheme.colors[ColorProgressTitleText] = ColorWhiteBold
 
 	defTheme.colors[ColorBarChartBack] = ColorBlack
 	defTheme.colors[ColorBarChartText] = ColorWhite
